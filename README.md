@@ -31,10 +31,10 @@ and this is the unity thread that I got the video from
 https://oc.unity3d.com/index.php/s/rx7KD0SYeQXr6qn
 ### What is the issue?
 1. I confimred this issue in:
-  1. Unity 2018.1.9f2
-  1. Unity 2018.2.11f1
-  1. Unity 2018.2.12f1
-  1. Unity 2018.3.0b5 [Beta Release]
+   * Unity 2018.1.9f2
+   * Unity 2018.2.11f1
+   * Unity 2018.2.12f1
+   * Unity 2018.3.0b5 [Beta Release]
 1. **Unity public issue tracker:**
 https://issuetracker.unity3d.com/issues/windowsmr-failure-to-take-photo-capture-in-hololens
 1. **Unity thread 1 discussing this problem:**
