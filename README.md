@@ -9,8 +9,8 @@ I created a workaround to be able to use camera in HoloLens until Unity fixes th
 It seems that the camera does NOT work when you install the app for the first time at the Start method when HoloLens display propmts to ask for permission to use the camera and the microphone. Unity silenty throws exceptions that I saw in debug log stating that resources are busy.
 ### Do NOT forget to add capabilities:
 1. WebCam
-2. Microphone: I am not sure if it needed since we are only taking photos or not, but I added it anyway.
-3. Pictures Library if you want to save to it
+1. Microphone: I am not sure if it needed since we are only taking photos or not, but I added it anyway.
+1. Pictures Library if you want to save to it
 
 ### This project tested on:
 1. Unity **2018.2.12f1**
@@ -30,11 +30,16 @@ https://oc.unity3d.com/index.php/s/rx7KD0SYeQXr6qn
 and this is the unity thread that I got the video from
 https://oc.unity3d.com/index.php/s/rx7KD0SYeQXr6qn
 ### What is the issue?
+1. I confimred this issue in:
+  1. Unity 2018.1.9f2
+  1. Unity 2018.2.11f1
+  1. Unity 2018.2.12f1
+  1. Unity 2018.3.0b5 [Beta Release]
 1. **Unity public issue tracker:**
 https://issuetracker.unity3d.com/issues/windowsmr-failure-to-take-photo-capture-in-hololens
-2. **Unity thread 1 discussing this problem:**
+1. **Unity thread 1 discussing this problem:**
 https://forum.unity.com/threads/hololens-photo-capturing-failing.548845/ 
-3. **Unity thread 2:**
+1. **Unity thread 2:**
 https://forum.unity.com/threads/photocapture-not-called-while-running-in-hololens.541825/
-4. **Microsoft GitHub thread:** PosterCalibration Camera Not Working in Unity 2018 #299
+1. **Microsoft GitHub thread:** PosterCalibration Camera Not Working in Unity 2018 #299
 https://github.com/Microsoft/MixedRealityCompanionKit/issues/299 
